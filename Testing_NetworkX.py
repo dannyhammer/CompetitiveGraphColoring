@@ -1,3 +1,5 @@
+# Daniel Hammer
+
 import networkx as nx
 
 #Creates a new graph named 'G'

@@ -9,7 +9,7 @@ vtx = int(input("Enter a number of vertices for this graph: "))
 
 
 # Creates a random tree graph named 'G'
-G = nx.random_tree(vtx)
+G = nx.path_graph(vtx)
 
 # Creates lists to reference the nodes and edges in 'G'
 nodes = list(G.nodes)
@@ -38,3 +38,5 @@ for node in nodes:
 
 # Displays the diameter of graph 'G'
 print("\nDiameter of G is: " + str(nx.diameter(G)))
+
+

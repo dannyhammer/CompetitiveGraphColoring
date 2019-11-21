@@ -1,3 +1,5 @@
+# Daniel Hammer
+
 # Imports the required networkx packages
 import networkx as nx
 

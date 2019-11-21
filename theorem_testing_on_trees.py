@@ -1,12 +1,15 @@
 # Daniel Hammer
 
+# CURRENTLY DOES NOT WORK AS INTENDED
+
 # Imports the required networkx packages
 import networkx as nx
+import random as r
 
 
-# Prompts the user for the number of vertices to be in 'G'
-vtx = int(input("Enter a number of vertices for this graph: "))
-
+# Generates random integer to build a random graph
+vtx = r.randint(2, 7)
+print("Generating a random integer: " + str(vtx))
 
 # Creates a random tree graph named 'G'
 G = nx.random_tree(vtx)
@@ -38,3 +41,12 @@ for node in nodes:
 
 # Displays the diameter of graph 'G'
 print("\nDiameter of G is: " + str(nx.diameter(G)))
+
+# Displays a subgraph of graph 'G'
+print("\nA subgraph of 'G' is " + str(nx.subgraph(G, None)))
+
+# Displays the distance between two vertices
+print("\nThe distance between vertex " + str(nodes[0]) + " and " + str(nodes[-1]) + " is ")
+#print(nx.resistance_distance(G, nodes[0], nodes[-1]))
+print(nx.resistance_distance(G, 0, 1))
+print(nx.distance(G, node[0], node[-1]))

@@ -1,4 +1,10 @@
 DANNY'S NOTES
 
 
+Come up with programs that test for the chromatic coloring for various types of graphs
+Programs should find the lowest single-player value coloring
+
+Define a function that accepts the input of a graph type and a numerical range
+Then generate the lowest k-coloring version of that graph for every graph in that range
+
 
