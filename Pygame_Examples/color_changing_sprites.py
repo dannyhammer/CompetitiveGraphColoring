@@ -1,5 +1,8 @@
+"""
+Author: Danny Hammer
+Date: 2/13/2020
+"""
 import pygame as pg
-import pygame.gfxdraw
 import random
 
 (win_width, win_height) = (1280, 720)
