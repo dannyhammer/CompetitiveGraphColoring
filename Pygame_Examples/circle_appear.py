@@ -11,24 +11,14 @@ global screen
 global running
 BLACK = (0, 0, 0)
 
-def getPos():
-    pos = pygame.mouse.get_pos()
-    return (pos)
-
-
-def drawCircle():
-    pos = getPos()
-    pygame.draw.circle(screen, BLACK, pos, 20)
-
-
 def main():
     # The background color that sets the R,G,B colors to white
     background_color = (255, 255, 255)
 
     # The width variable
-    width = 300
+    width = 640
     # The height variable
-    height = 200
+    height = 480
 
     # The screen variable that sets display using the width and height variables
     screen = pygame.display.set_mode((width, height))
@@ -55,7 +45,7 @@ def main():
         for event in event:
 
             if event.type == pygame.MOUSEBUTTONDOWN:
-                drawCircle()
+                pygame.draw.circle(screen, BLACK, (150, 200), 25, 5)
                 pygame.display.update()
 
 
