@@ -817,6 +817,7 @@ def draw_circle(color, x, y, radius, thickness, id):
     y (int): The y coordinate to center the circle over
     radius (int): The radius of a vertex
     thickness (int): the thickness of a vertex's outer ring
+    id (int): The ID of the vertex to be used as a label
 
     Returns:
     N/A
@@ -828,13 +829,15 @@ def draw_circle(color, x, y, radius, thickness, id):
 
     font = pygame.font.Font(None, font_size)
 
-    display = font.render(str(id), 1, CRAYONBOX["BLACK"], color)
+
     
 
     pygame.draw.circle(screen, CRAYONBOX["BLACK"], (x, y), radius, thickness)
     pygame.draw.circle(screen, CRAYONBOX[color], (x, y), radius - thickness)
 
-    screen.blit(display, (x - (font_size / 4), y - (font_size / 4)))
+    if id is not "":
+        display = font.render(str(id), 1, CRAYONBOX["BLACK"], color)
+        screen.blit(display, (x - (font_size / 4), y - (font_size / 4)))
 
 
 
@@ -940,7 +943,7 @@ def display_usable_colors(colors, radius, thickness):
         rad = int(radius / 2)
         thick = int(thickness / 2)
 
-        draw_circle(colors[i], x, y, rad, thick, i)
+        draw_circle(colors[i], x, y, rad, thick, "")
 
 
 
