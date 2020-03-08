@@ -829,9 +829,6 @@ def draw_circle(color, x, y, radius, thickness, id):
 
     font = pygame.font.Font(None, font_size)
 
-
-    
-
     pygame.draw.circle(screen, CRAYONBOX["BLACK"], (x, y), radius, thickness)
     pygame.draw.circle(screen, CRAYONBOX[color], (x, y), radius - thickness)
 
