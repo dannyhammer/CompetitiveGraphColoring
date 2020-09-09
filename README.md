@@ -1,5 +1,7 @@
 # Competitive Graph Coloring
 
-## Research in the realm of competitive graph coloring via machine learning
+Faculty Advisor: Dr. Andrew Penland
 
-to be continued
+Authors: Nicholas O'Kelley, Daniel Hammer
+
+## Research to use Machine Learning in Competitive Graph Coloring
