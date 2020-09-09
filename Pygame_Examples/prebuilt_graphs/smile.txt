@@ -1,7 +1,0 @@
-{'ID': 0, 'x': 509, 'y': 205, 'color': 'WHITE', 'adjacent': []}
-{'ID': 1, 'x': 738, 'y': 206, 'color': 'WHITE', 'adjacent': []}
-{'ID': 2, 'x': 442, 'y': 402, 'color': 'WHITE', 'adjacent': [3]}
-{'ID': 3, 'x': 528, 'y': 480, 'color': 'WHITE', 'adjacent': [2, 4]}
-{'ID': 4, 'x': 626, 'y': 506, 'color': 'WHITE', 'adjacent': [3, 5]}
-{'ID': 5, 'x': 715, 'y': 471, 'color': 'WHITE', 'adjacent': [4, 6]}
-{'ID': 6, 'x': 786, 'y': 403, 'color': 'WHITE', 'adjacent': [5]}
