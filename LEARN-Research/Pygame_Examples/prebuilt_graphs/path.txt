@@ -1,0 +1,7 @@
+{'ID': 0, 'x': 579, 'y': 322, 'color': 'WHITE', 'adjacent': [1, 2]}
+{'ID': 1, 'x': 763, 'y': 327, 'color': 'WHITE', 'adjacent': [0, 3]}
+{'ID': 2, 'x': 417, 'y': 312, 'color': 'WHITE', 'adjacent': [0, 4]}
+{'ID': 3, 'x': 911, 'y': 326, 'color': 'WHITE', 'adjacent': [1, 5]}
+{'ID': 4, 'x': 278, 'y': 313, 'color': 'WHITE', 'adjacent': [2, 6]}
+{'ID': 5, 'x': 1057, 'y': 327, 'color': 'WHITE', 'adjacent': [3]}
+{'ID': 6, 'x': 129, 'y': 308, 'color': 'WHITE', 'adjacent': [4]}

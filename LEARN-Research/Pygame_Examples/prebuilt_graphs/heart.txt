@@ -1,0 +1,14 @@
+{'ID': 0, 'x': 616, 'y': 223, 'color': 'WHITE', 'adjacent': [13, 1, 12, 2, 7]}
+{'ID': 1, 'x': 712, 'y': 160, 'color': 'WHITE', 'adjacent': [0, 2]}
+{'ID': 2, 'x': 823, 'y': 161, 'color': 'WHITE', 'adjacent': [1, 3, 0]}
+{'ID': 3, 'x': 870, 'y': 282, 'color': 'WHITE', 'adjacent': [2, 4, 11]}
+{'ID': 4, 'x': 836, 'y': 402, 'color': 'WHITE', 'adjacent': [3, 5, 10]}
+{'ID': 5, 'x': 784, 'y': 491, 'color': 'WHITE', 'adjacent': [4, 6, 9]}
+{'ID': 6, 'x': 713, 'y': 586, 'color': 'WHITE', 'adjacent': [5, 7, 8]}
+{'ID': 7, 'x': 619, 'y': 631, 'color': 'WHITE', 'adjacent': [8, 6, 0]}
+{'ID': 8, 'x': 533, 'y': 580, 'color': 'WHITE', 'adjacent': [7, 9, 6]}
+{'ID': 9, 'x': 469, 'y': 485, 'color': 'WHITE', 'adjacent': [8, 10, 5]}
+{'ID': 10, 'x': 421, 'y': 383, 'color': 'WHITE', 'adjacent': [9, 11, 4]}
+{'ID': 11, 'x': 408, 'y': 278, 'color': 'WHITE', 'adjacent': [10, 12, 3]}
+{'ID': 12, 'x': 463, 'y': 164, 'color': 'WHITE', 'adjacent': [11, 13, 0]}
+{'ID': 13, 'x': 562, 'y': 165, 'color': 'WHITE', 'adjacent': [12, 0]}
