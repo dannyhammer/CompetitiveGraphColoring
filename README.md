@@ -1,7 +1,5 @@
-# Competitive Graph Coloring
+# L.E.A.R.N. Research
 
-Faculty Advisor: Dr. Andrew Penland
+### Research from L.E.A.R.N. at Western Carolina University
 
-Authors: Nicholas O'Kelley, Daniel Hammer
-
-## Research to use Machine Learning in Competitive Graph Coloring
+Deprecated work from the 2019-2020 academic year
